@@ -1,0 +1,358 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-black', serif;
+}
+
+p {
+  color: #7b8bad;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2C3333;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Nav Section */
+.nav-section {
+  background: #fff;
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.n-container {
+  padding: 2% 7%;
+}
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-button {
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background: #0F3460;
+}
+
+/* Title Section */
+#title {
+  padding: 20px 112px 60px;
+  margin-top: 11%;
+}
+
+.side-square1 {
+  width: 15vh;
+  height: 30vh;
+  position: absolute;
+  left: 93%;
+  border-radius: 7px 0 0 7px;
+}
+
+.title-writeup {
+  margin: auto 0;
+  width: 50%;
+  height: 50%;
+}
+
+.title-p {
+  padding: 2% 0;
+  max-width: 80%;
+  text-align: left;
+}
+
+.btn {
+  background-color: #f16718;
+  border-style: none;
+  padding: 3% 4%;
+  border-radius: 13px;
+  margin-right: 13px;
+}
+
+.btn:hover {
+  background: #f3cfd1;
+}
+
+.btn-R {
+  background-color: #fff;
+  border-style: none;
+  padding: 3% 5%;
+  border-radius: 13px;
+}
+
+.btn-R:hover {
+  background: #F8F0E3;
+}
+
+/* Image Section */
+.pig-background {
+  width: 85vh;
+  height: 70vh;
+  border-radius: 5%;
+  border: 1px solid #fff;
+  margin: 0 0 0 auto;
+}
+
+/* Next Section Images */
+.pig-farmer {
+  width: 15.625em;
+  height: 27.5em;
+  padding-right: 5px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #fff;
+}
+
+.pig-feeding {
+  width: 23.75em;
+  height: 27.5em;
+  padding-left: 5px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #fff;
+}
+
+/* About-The Farm Section */
+#About-the-farm {
+  margin: 5% 0 7%;
+}
+
+.side-square2 {
+  width: 15vh;
+  height: 30vh;
+  position: absolute;
+  top: 157%;
+  border-radius: 0 7px 7px 0;
+}
+
+.farm-div {
+  margin-top: 3%;
+  display: flex;
+}
+
+.farm-writeup {
+  text-align: left;
+  max-width: 30%;
+  margin: auto 0 auto auto;
+}
+
+/* Features Section */
+#features {
+  padding: 20px 110px 60px;
+}
+
+.features-heading {
+  padding-bottom: 15px;
+}
+
+/* Icons for features section */
+.icon {
+  background: #f16718;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* Footer Section */
+#footer {
+  padding: 30px 50px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Responsiveness for removing the side image */
+@media (max-width: 1309px) {
+  .side-square1 {
+    display: block !important;
+  }
+
+  .side-square1 {
+    display: none !important;
+  }
+
+  .side-square2 {
+    display: block !important;
+  }
+
+  .side-square2 {
+    display: none !important;
+  }
+}
+
+/* Medium Screen Responsiveness for the second section*/
+@media (max-width: 1079px) {
+  .farm-div {
+    flex-wrap: wrap;
+  }
+
+  .farm-writeup {
+    margin-top: 10vh;
+    max-width: 100%;
+  }
+
+  .farm-heading {
+    max-width: 20%;
+  }
+
+  .history-p {
+    max-width: 40%;
+    position: relative;
+    left: 18.75em;
+    bottom: 6.25em;
+  }
+}
+
+/* Medium screen Responsiveness */
+@media (max-width: 989px) {
+  #title {
+    margin-bottom: 120px;
+  }
+
+  .title-writeup {
+    width: 100%;
+  }
+
+  .big-heading {
+    text-align: center;
+    font-size: 3rem
+  }
+
+  .title-p {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .btn {
+    padding: 2% 2%;
+  }
+
+  .btn-R {
+    padding: 2% 2%;
+    margin-left: 45%;
+  }
+
+  .pig-background {
+    width: 730px;
+    height: 600px;
+    margin: 3% auto 0;
+  }
+
+  .farm-writeup {
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .farm-heading {
+    max-width: 30%;
+  }
+
+  .history-p {
+    max-width: 50%;
+    bottom: 6.875em;
+  }
+
+   .features-last {
+    margin: 7% 0 0 30%;
+    width: 50%;
+  }
+}
+
+/* Small Screen Responsiveness */
+@media (max-width: 768px) {
+  #title {
+    margin-top: 15%;
+  }
+
+  .title-writeup {
+    width: 100%;
+  }
+
+  .big-heading {
+    text-align: center;
+    font-size: 2.6rem
+  }
+
+  .title-p {
+    text-align: center;
+  }
+
+  .btn {
+    padding: 2% 3%;
+  }
+
+  .btn-R {
+    padding: 2% 3%;
+    margin-left: 18vh;
+  }
+
+  .pig-background {
+    width: 90vh;
+    height: 80vh;
+    margin: 3% auto 0;
+  }
+
+  .pig-farmer {
+    width: 12.5em;
+    height: 25.625em;
+    padding-right: 5px;
+  }
+
+  .pig-feeding {
+    width: 20em;
+    height: 25.625em;
+    padding-left: 5px;
+  }
+
+  .farm-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+ .history-p {
+    position: static;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .icon {
+    margin-left: 40%;
+  }
+
+  .features-last {
+    margin: 0;
+    width: 100%;
+  }
+
+  .features-second {
+    margin: 7% 0;
+    padding-left: 15px;
+  }
+}
